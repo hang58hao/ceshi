@@ -43,6 +43,10 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void)ceshiceshi{
+    NSLog(@"这是一个测试");
+}
+
 -(void)downloadRate:(float)rate withDownloadUrl:(NSString *)downloadUrl{
     _downLoadProgress = rate;
     _progressLabel.text = [NSString stringWithFormat:@"%.1f%%",rate];
