@@ -45,6 +45,7 @@
 
 -(void)ceshiceshi{
     NSLog(@"这是一个测试");
+    NSLog(@"这是合伙人的测试");
 }
 
 -(void)hahah{
