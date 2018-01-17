@@ -50,6 +50,7 @@
 
 -(void)hahah{
     NSLog(@"这是主干的更新");
+    NSLog(@"这是主干第二次更新");
 }
 
 -(void)downloadRate:(float)rate withDownloadUrl:(NSString *)downloadUrl{
